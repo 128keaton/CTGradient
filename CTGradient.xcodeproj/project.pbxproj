@@ -148,10 +148,18 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTGradient" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CTGradient */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* CTGradient */,
 			);
@@ -215,6 +223,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = CTGradient;
+				SDKROOT = macosx10.13;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -232,6 +241,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = CTGradient;
+				SDKROOT = macosx10.13;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
