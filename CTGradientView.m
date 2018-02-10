@@ -52,7 +52,7 @@
 
 - (IBAction)changeAngle:(id)sender
   {
-  angle = 90.0 - [sender floatValue];
+  angle = 90.0 - [sender doubleValue];
   
   [self setNeedsDisplay:YES];
   }
